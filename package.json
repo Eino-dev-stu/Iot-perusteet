@@ -1,0 +1,23 @@
+{
+  "name": "lesson2",
+  "version": "1.0.0",
+  "description": "\"# Iot-perusteet\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eino-dev-stu/Iot-perusteet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eino-dev-stu/Iot-perusteet/issues"
+  },
+  "homepage": "https://github.com/Eino-dev-stu/Iot-perusteet#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
