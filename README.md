@@ -19,3 +19,10 @@
 
 ## LESSON3
 #### server2.js [code](https://github.com/Eino-dev-stu/Iot-perusteet/blob/main/lesson_3/server2.js)
+
+
+## LESSON4  
+### Iot-pipeline Wokwi -> thingspeak -> server -> dashborad
+## [Wokwi weather sensor](https://wokwi.com/projects/444134148581645313)
+Sensor that sends humidity and temperature data to thingspeak using api
+## 
