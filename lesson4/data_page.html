@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="get_data2.js"></script>
+    <script>
+      google.charts.load("current", { packages: ["corechart"] })
+      google.charts.setOnLoadCallback(drawChart)
+
+      async function drawChart() {
+        const chartArray = await fetchTempData()
+
+        const data = google.visualization.arrayToDataTable(chartArray)
+
+        const options = {
+          title: "IoT Temperature Data",
+          curveType: "function",
+          legend: { position: "bottom" },
+        }
+
+        const chart = new google.visualization.LineChart(
+          document.getElementById("curve_chart")
+        )
+
+        chart.draw(data, options)
+      }
+    </script>
+  </head>
+  <body>
+    <div id="curve_chart" style="width: 900px; height: 500px"></div>
+
+    <h2>ThingSpeak Updates</h2>
+    <div id="output">Waiting for update...</div>
+
+    <script>
+      const socket = new WebSocket("ws://localhost:8080")
+
+      socket.onopen = () => {
+        document.getElementById("output").textContent = "Connected to server"
+      }
+
+      socket.onmessage = (event) => {
+        const data = JSON.parse(event.data)
+        if (data.type === "update") {
+          document.getElementById("output").innerHTML = `
+            <p><b>Time:</b> ${data.time}</p>
+            <p><b>Temperature:</b> ${data.temperature}</p>
+            <p><b>Humidity:</b> ${data.humidity}</p>
+          `
+        }
+      }
+
+      socket.onerror = (err) => console.error("WebSocket error", err)
+    </script>
+  </body>
+</html>

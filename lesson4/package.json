@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "node-fetch": "^2.7.0",
+    "ws": "^8.18.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "lesson4",
+  "version": "1.0.0",
+  "main": "get_data.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
