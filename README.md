@@ -28,7 +28,7 @@ Sensor that sends humidity and temperature data to thingspeak using api
 ## 2 [code for getting data from thingspeak](https://github.com/Eino-dev-stu/Iot-perusteet/blob/main/lesson4/get_data2.js)
 ####  ThingSpeak API
 - **API Endpoint**: `https://api.thingspeak.com/channels/3103082/feeds.json?api_key=5XEVX47I73XH8W1X`
-- **Data Format**: JSON with `channel` (includes `last_entry_id`) and `feeds` array containing entries like:
+- **Data Format**: JSON  array containing entries like:
   ```json
   {
     "created_at": "2025-10-07T09:44:24Z",
