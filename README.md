@@ -1,4 +1,4 @@
-## Lesson1 Embedded programming using Raspberry Pi Pico in wokwi.com
+## LESSON1 Embedded programming using Raspberry Pi Pico in wokwi.com
 #### 1. Shows the humidity and temperatures at 2 second intervals [weather code](https://github.com/Eino-dev-stu/Iot-perusteet/blob/main/lesson_1/weather.py)
 <img src="https://github.com/Eino-dev-stu/Iot-perusteet/blob/main/pictures/Screenshot%202025-10-07%20030009.png" alt="screenshot" width="40%" height="40%">
 
@@ -10,3 +10,6 @@
 
 #### 4. Counts how fast button is pressed after light turns off. [reflex button code](https://github.com/Eino-dev-stu/Iot-perusteet/blob/main/lesson_1/reflex_button.py)
 <img src="https://github.com/Eino-dev-stu/Iot-perusteet/blob/main/pictures/Screenshot%202025-10-07%20030210.png" alt="screenshot" width="40%" height="40%">
+
+## LESSON2 
+#### screen says hellothere
