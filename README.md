@@ -12,4 +12,6 @@
 <img src="https://github.com/Eino-dev-stu/Iot-perusteet/blob/main/pictures/Screenshot%202025-10-07%20030210.png" alt="screenshot" width="40%" height="40%">
 
 ## LESSON2 
-#### screen says hellothere
+#### screen says hellothere [screen code](https://github.com/Eino-dev-stu/Iot-perusteet/blob/main/lesson_2/screen.py)
+
+
