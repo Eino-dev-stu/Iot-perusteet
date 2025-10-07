@@ -13,5 +13,5 @@
 
 ## LESSON2 
 #### screen says hellothere [screen code](https://github.com/Eino-dev-stu/Iot-perusteet/blob/main/lesson_2/screen.py)
-
+<img src="https://github.com/Eino-dev-stu/Iot-perusteet/blob/main/pictures/screen.png" alt="screen" width=40% height=40%>
 
