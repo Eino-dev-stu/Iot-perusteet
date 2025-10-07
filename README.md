@@ -18,4 +18,4 @@
 #### server.js [code](https://github.com/Eino-dev-stu/Iot-perusteet/blob/main/lesson_2/server.js)
 
 ## LESSON3
-#### server2.js [code]()
+#### server2.js [code](https://github.com/Eino-dev-stu/Iot-perusteet/blob/main/lesson_3/server2.js)
