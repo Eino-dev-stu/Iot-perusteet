@@ -31,3 +31,4 @@ Sensor that sends humidity and temperature data to thingspeak using api
   When update is noticed websocket is used to send the new to the dashboard.  It appears as a text not in the graph.
 
 ## 4 Dashboard [code](https://github.com/Eino-dev-stu/Iot-perusteet/blob/main/lesson4/data_page.html)   
+  Frontend dashboard show line graph of data and updates to data at bottom of the page. If Sensor and poll server are both running.
